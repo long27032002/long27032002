@@ -1,10 +1,12 @@
-- 👋 Hi, I’m @long27032002
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-long27032002/long27032002 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Xin chào, tôi là người đưa cô ấy đi lâu đấy
+ Youdaoplaceholder0 tôi thích thú với...
+ Youdaoplaceholder0 tôi đang học
+  C/CPP
+ Youdaoplaceholder0 ️ tôi đang tìm sự hợp tác...
+ Làm sao để liên lạc với tôi
+ Long27032002@gmail.com
+ 
+ <!--
+ Long27032002 / Long27032002 là ✨ kho lưu trữ đặc biệt ✨ bởi vì nó 'README. Md '(hồ sơ này) xuất hiện trên hồ sơ GitHub của bạn.
+ Bạn có thể nhấp vào liên kết trước để xem xét những thay đổi của mình.
+ # >
