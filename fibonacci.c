@@ -28,7 +28,6 @@ int main()
 		{
 			printf("%d\n", Fibonacci(n));
 		}
-	   1
 	}
 	printf("Xin cam on!!!");
 	return 0;
