@@ -1,0 +1,197 @@
+#include <time.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+#define up(val, loc) val |=(1<<loc)
+#define down(val, loc) val &=~(1<<loc)
+
+typedef struct {
+	int  permission:8;
+	char user_name[31];
+	char password[20];
+	char nickname[31];
+} account_t;
+
+typedef enum {
+	admin = 0,
+	member = 1,
+	vip = 2,
+	high_security = 3,
+	edit = 4,
+} location_permission_t;
+
+account_t user[100];
+account_t ADMIN;
+location_permission_t location;
+unsigned int n=0, N;
+bool pass = false;
+
+void set_account_admin(account_t ADMIN){
+	strcpy(ADMIN.user_name, "LongBK200366");
+	strcpy(ADMIN.password, "031202005877");
+	strcpy(ADMIN.nickname, "ADMIN");
+	/*static*/ ADMIN.permission = 0b11111111;
+}
+
+bool checkpermission(int val, location_permission_t location){
+    int a;
+    a = val - up(val, location);
+    if (a==0){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+int main()
+{
+	int  selection;
+	char extra[10];
+	set_account_admin(ADMIN);
+
+	while(true)
+	{
+		printf("Welcome to my program.\n");
+		printf("1. Log in.\n");
+		printf("2. Sign up.\n");
+		printf("3. Support.\n");
+		printf("4. Shutdown.\n");
+		printf("Enter your selection: ");
+		scanf("%d", &selection);
+		switch(selection){
+			case 1:
+			{
+				system("cls");
+				printf("Please login!.\n");
+				login_again:;
+				fgets(extra, sizeof(extra), stdin);
+				printf("Enter user name: ");
+				fflush(stdin);
+				fgets(user[0].user_name, 31, stdin);
+				printf("Enter password: ");
+				fflush(stdin);
+				fgets(user[0].password, 20, stdin);
+
+				if (strcmp((user[0].user_name, ADMIN.user_name)==0)&&(strcmp(user[0].password, ADMIN.password)==0))
+				{
+					goto end_login;
+				} else if (n==0)
+				{
+					printf("Your account not exist!\n");
+
+				} else 
+				{
+					for (int i = 1; i <= n; i++)
+					{
+						int a = strcmp(user[0].user_name, user[i].user_name);
+						int b = strcmp(user[0].password, user[i].password);
+
+						if ((a==0)&&(b==0))
+						{
+							N=i;
+							goto end_login;
+						} else if ((a==0)&&(b!=0)||((a!=0)&&(b==0)))
+						{
+							printf("Your account is incorrect!!!.\a\n");
+							printf("Please login again.\n");
+							goto login_again;
+						} 
+					}
+					printf("Your account not exist!.\n");
+					goto login_again;
+				}
+				end_login:;
+
+				printf("\tHello %s\n", user[N].nickname);
+				printf("1. Your information.\n");
+				printf("2. Change your information.\n");
+				printf("3. Upgrade your password(high security).\n");
+				break;
+			}
+
+			case 2:
+			{
+				system("cls");
+				sign_up_again:;
+				char checkpass[20];
+				fgets(extra, sizeof(extra), stdin);
+				printf("Enter new user name: \n");
+				fflush(stdin);
+				fgets(user[0].user_name, 31, stdin);
+				printf("Enter  your nickname: \n");
+				fflush(stdin);
+				fgets(user[0].nickname, 31, stdin);
+				printf("Enter new password: \n");
+				fflush(stdin);
+				fgets(user[0].password, 20, stdin);
+				checkpassword:;
+				printf("Enter new password again: \n");
+				fflush(stdin);
+				fgets(checkpass, 20, stdin);
+				
+				if ((int)strcmp(checkpass, user[0].password)!=0)
+				{
+					printf("Your password incorrect!\a\n");
+					printf("Please enter again.\n");
+					goto checkpassword;
+				} else 
+				{
+					if (n==0)
+					{
+						user[1]=user[0];
+					} else
+					{
+						for (int i = 1; i <= n; i++)
+						{
+							int x = strcmp(user[0].user_name, user[i].user_name);
+							int y = strcmp(user[0].password, user[i].password);
+							if ((x!=0)&&(y!=0))
+							{
+								continue;
+							} 
+							else {
+								printf("Your account existed!.\n");
+								printf("Please sign up again.\n");
+								goto sign_up_again;
+							}
+						}
+						
+					}
+				}
+				n++;
+				user[n]=user[0];
+				printf("Sign up succesfull.\n");
+				sleep(1);
+				continue;
+				break;
+			}
+
+			case 3:
+			{
+				system("cls");
+				printf("Contact Facebook: Nguyen Nhu Hai Long.\n");
+				printf("Gmail: long27032002@gmail.com.\n");
+				break;
+			}
+
+			case 4:
+			{
+				printf("\nGOOGBYE.\n");
+				sleep(1);
+				printf("**********************************************\n");
+				exit(0);
+				break;
+			}
+
+			default:
+			{
+				printf("\nThis funcition not available.\n");
+				sleep(2);
+				break;
+			}
+		}
+	}
+	
+}
