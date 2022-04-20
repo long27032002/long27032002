@@ -1,8 +1,4 @@
-Xin chào, tôi là người đưa cô ấy đi lâu đấy
- Youdaoplaceholder0 tôi thích thú với...
- Youdaoplaceholder0 tôi đang học
-  C/CPP
- Youdaoplaceholder0 ️ tôi đang tìm sự hợp tác...
+
  Làm sao để liên lạc với tôi
  Long27032002@gmail.com
  
