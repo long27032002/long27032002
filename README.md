@@ -14,7 +14,7 @@ I'm a [brief descriptor: embedded systems engineer] passionate about **electroni
 - 🌱 Learning more about: **[Embedded System, Electronic, SDR, high-frequency circuit design, Signal Processing]**
 - 🛠️ Tools & technologies I use: **C/C++, Python, KiCad, LTspice, ESP32, STM32, FPGA, FreeRTOS, ZephyrRTOS, etc.**
 - 📫 Best way to reach me: **Open an issue or send an email**
-- ⚡ Fun fact: **Coding, design and chilling!**
+- ⚡ **Coding, design and chilling!**
 
 ---
 
