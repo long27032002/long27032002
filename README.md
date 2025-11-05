@@ -24,10 +24,8 @@ I'm a [brief descriptor: embedded systems engineer] passionate about **electroni
 
 ## 📊 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=radical)
-
-> 💡 *Replace `your-username` with your actual GitHub username to display your stats.*
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=long27032002&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=long27032002&layout=compact&theme=radical)
 
 ---
 
