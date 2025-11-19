@@ -1,0 +1,20 @@
+﻿  main.c
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(53,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(55,42): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(55,24): warning C4024: 'strcmp': different types for formal and actual parameter 2
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(64,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(76,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(78,17): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char'
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(78,14): warning C4024: 'strcmp': different types for formal and actual parameter 1
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(78,36): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(78,19): warning C4024: 'strcmp': different types for formal and actual parameter 2
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(79,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(83,10): warning C4087: 'abort': declared with 'void' parameter list
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(89,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(97,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(99,33): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char'
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(99,30): warning C4024: 'strcmp': different types for formal and actual parameter 2
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(103,41): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char'
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(103,38): warning C4024: 'strcmp': different types for formal and actual parameter 2
+C:\Users\Admin\source\repos\quan_li_sv\quan_li_sv\main.c(123,23): warning C4018: '<': signed/unsigned mismatch
+  quan_li_sv.vcxproj -> C:\Users\Admin\source\repos\quan_li_sv\Debug\quan_li_sv.exe

@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Admin\source\repos\quanlicty\quanlicty\main.cpp(123,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Admin\source\repos\quanlicty\quanlicty\main.cpp(128,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Admin\source\repos\quanlicty\quanlicty\main.cpp(132,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  quanlicty.vcxproj -> C:\Users\Admin\source\repos\quanlicty\Debug\quanlicty.exe

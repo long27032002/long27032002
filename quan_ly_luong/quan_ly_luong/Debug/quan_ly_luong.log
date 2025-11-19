@@ -1,0 +1,30 @@
+﻿  CongTy.cpp
+C:\Users\Admin\source\repos\quan_ly_luong\quan_ly_luong\CongTy.cpp(81,19): warning C4244: 'return': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\numeric(35,26): warning C4244: '=': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\numeric(44): message : see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>,
+              _Fn=std::plus<void>
+          ]
+C:\Users\Admin\source\repos\quan_ly_luong\quan_ly_luong\CongTy.cpp(81): message : see reference to function template instantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>,int>(const _InIt,const _InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>
+          ]
+  NVSanXuat.cpp
+  NVVanPhong.cpp
+  NhanVien.cpp
+  QuanLy.cpp
+  Generating Code...
+  quan_ly_luong.vcxproj -> C:\Users\Admin\source\repos\quan_ly_luong\Debug\quan_ly_luong.exe
