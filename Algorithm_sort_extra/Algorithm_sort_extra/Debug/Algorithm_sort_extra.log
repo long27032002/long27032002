@@ -1,0 +1,8 @@
+﻿  Stack.c
+C:\Users\Admin\source\repos\Algorithm_sort_extra\Algorithm_sort_extra\Stack.c(73,13): warning C4013: '_kbhit' undefined; assuming extern returning int
+C:\Users\Admin\source\repos\Algorithm_sort_extra\Algorithm_sort_extra\Stack.c(88,13): warning C4013: 'getch' undefined; assuming extern returning int
+  main.c
+  Generating Code...
+C:\Users\Admin\source\repos\Algorithm_sort_extra\Algorithm_sort_extra\Stack.c(53): warning C4715: 'peek': not all control paths return a value
+  LINK : C:\Users\Admin\source\repos\Algorithm_sort_extra\Debug\Algorithm_sort_extra.exe not found or not built by the last incremental link; performing full link
+  Algorithm_sort_extra.vcxproj -> C:\Users\Admin\source\repos\Algorithm_sort_extra\Debug\Algorithm_sort_extra.exe
