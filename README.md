@@ -11,7 +11,7 @@ I'm a [brief descriptor: embedded systems engineer] passionate about **electroni
 ## 💡 About Me
 
 - 🔭 Currently working on: **[GPS_GNSS_Disciplined_Oscillator_Project]**
-- 🌱 Learning more about: **[Embedded System, Electronic, SDR, high-frequency circuit design, Signal Processing]**
+- 🌱 Learning more about: **[Embedded System, Embedded Linux, Operating System / Real-Time Operating System, Electronic, High-frequency Circuit Design, Software-Define Radio, Digital/Analog Signal Processing]**
 - 🛠️ Tools & technologies I use: **C/C++, Python, KiCad, LTspice, ESP32, STM32, FPGA, FreeRTOS, ZephyrRTOS, etc.**
 - 📫 Best way to reach me: **Open an issue or send an email(dragon2703workmail@gmail.com)**
 - ⚡ **Coding, design and chilling!**
@@ -31,4 +31,4 @@ I'm a [brief descriptor: embedded systems engineer] passionate about **electroni
 
 ## 🤝 Let's Connect!
 
-I'm always open to collaboration, technical discussions, or sharing insights on embedded systems, RF design, or FPGA-based projects. Don’t hesitate to reach out!
+I'm always open to collaboration, technical discussions, or sharing insights on embedded systems, embedded linux, RF design or FPGA-based projects. Don’t hesitate to reach out!
